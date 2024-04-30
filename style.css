@@ -1,0 +1,39 @@
+body {
+    
+    background-image: url('/Tarefa11/img/pastor-suico-guia-racas.webp');
+    background-size: contain;
+    background-position:center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    display: flex;
+    background-color: darkgray;
+    border: solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin: 0 auto;
+    
+}
+button:hover {
+    background-color: blue;
+}
+
+#lista{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
