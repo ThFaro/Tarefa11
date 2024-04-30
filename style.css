@@ -1,20 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    
-    background-image: url('/Tarefa11/img/pastor-suico-guia-racas.webp');
-    background-size: contain;
-    background-position:center;
+    background-image: url('img/kisspng-berger-blanc-suisse-white-shepherd-canadian-eskimo-chow-chow-dog-5b35e077bae976.8732475515302575277656.png');
+    background-size: 1200px;
+    background-position:top;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     background-color: darkblue;
     color: white;
     border-radius: 5px;
     font-size: 12px;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    align-self: stretch; 
+    
+}
+
+h1{
+    margin-left: 600px;
 }
 
 button {
@@ -25,15 +39,33 @@ button {
     padding: 5px 10px;
     margin-top: 10px;
     margin: 0 auto;
+    margin-left: 450px;
+    
     
 }
 button:hover {
     background-color: blue;
 }
 
+button:active{
+    background-color: rgb(0, 0, 87);
+}
+
 #lista{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 30px;
+    border: solid black;
+    border: 10px;
+    margin-left:30px;
 }
 
+footer {
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-top: auto; 
+    align-self: stretch; 
+    text-align: center; 
+}

@@ -8,7 +8,7 @@ function adicionarItemLista(animal) {
 }
 
 function cadastrarAnimal() {
-    fetch('/Tarefa11/animal.json')
+    fetch('animal.json')
         .then(response => response.json())
         .then(animal => {
             adicionarItemLista(animal);
